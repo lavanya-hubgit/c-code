@@ -1,2 +1,20 @@
 # c-code
 This is the  c code for conversion concepts under printf and scanf and function syntax.
+// Farenheit to celsius program by getting user input
+//cel celsius
+//faren Farenheit
+//res result
+#include <stdio.h>
+float cel(float faren){
+   float res= ((faren-32.0)*5.0/9.0);
+    return res;
+}
+
+int main() {
+    float faren;
+    printf("Enter farenheit value:");
+    scanf("%f",&faren);
+    cel(faren);
+    printf("The celsius value are:%.7f",cel(faren));
+    return 0;
+    }
