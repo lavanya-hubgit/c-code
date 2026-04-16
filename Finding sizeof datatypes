@@ -1,0 +1,25 @@
+#include<stdio.h>
+int a;
+float b;
+char c;
+double e;
+int main (){
+    printf("Enter the integer value a:");
+    scanf("%d",&a);
+    printf("enter the float value b:");
+    scanf("%f",&b);
+    printf("enter the value c:\n");
+    scanf(" %c",&c);
+    printf("enter the double e:");
+    scanf("%lf",&e);
+    printf("%zu\n",sizeof(a));
+    printf("%zu\n",sizeof(b));
+    printf("%zu\n",sizeof(c));
+    printf("%zu\n",sizeof(e));
+    return 0;
+    
+    
+    
+
+    
+}
